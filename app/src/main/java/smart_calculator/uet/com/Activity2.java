@@ -11,6 +11,7 @@ public class Activity2 extends AppCompatActivity  {
     private ImageButton turnonDTB3;
     private ImageButton turnonDTB4;
     private ImageButton giaiPTB2;
+    private ImageButton giaiPTB3;
     private ImageButton back ;
 
 
@@ -24,6 +25,7 @@ public class Activity2 extends AppCompatActivity  {
         turnonDTB3 = findViewById(R.id.DrawDTB3);
         turnonDTB4 = findViewById(R.id.DrawDTB4);
         giaiPTB2= findViewById(R.id.GiaiPTB2);
+        giaiPTB3= findViewById(R.id.GiaiPTB3);
 
         back = (ImageButton) findViewById(R.id.BackButton)  ;
 
@@ -72,6 +74,17 @@ public class Activity2 extends AppCompatActivity  {
                 Intent intent = new Intent(Activity2.this, GiaiPTB2.class) ;
                 startActivity(intent);
             }
+
+
+        });
+        giaiPTB3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Activity2.this, GiaiPTB3.class) ;
+                startActivity(intent);
+            }
+
+
         });
 
     }
