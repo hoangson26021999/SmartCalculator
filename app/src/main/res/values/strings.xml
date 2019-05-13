@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Smart Calculator</string>
+    <string name="title_activity_draw_dtb3">DrawDTB3</string>
+    <string name="title_activity_draw_dtb4">DrawDTB4</string>
+    <string name="title_activity_giai_ptb2">GiaiPTB2</string>
+    <string name="title_activity_giai_ptb3">GiaiPTB3</string>
+</resources>
