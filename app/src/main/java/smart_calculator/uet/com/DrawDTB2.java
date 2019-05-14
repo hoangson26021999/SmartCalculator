@@ -31,12 +31,12 @@ public class DrawDTB2 extends AppCompatActivity {
         double x , y  ;
         x = -10.00 ;
         seriesTest = new LineGraphSeries<>() ;
-        int numDataPoint = 200 ;
+        int numDataPoint = 2000 ;
         for (int i = 0 ; i < numDataPoint ; i ++)
         {
-            x = x+0.1 ;
+            x = x+0.01 ;
             y = a*x*x + b*x + c ;
-            seriesTest.appendData(new DataPoint(x, y) , true , 200);
+            seriesTest.appendData(new DataPoint(x, y) , true , 2000);
         }
         return seriesTest ;
     }
